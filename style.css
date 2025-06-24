@@ -34,13 +34,13 @@ main {
 }
 
 .left-line {
-    position: fixed;        /* Щоб лінія залишалася на місці при прокрутці */
+    position: fixed;
     top: 0;
     left: 0;
-    width: 400px;            /* Ширина лінії */
-    height: 100vh;          /* Висота на весь екран */
-    background-color: #b387c7; /* Колір лінії */
-    z-index: -1;            /* Відправляємо її за всі елементи */
+    width: 400px;
+    height: 100vh;
+    background-color: #b387c7;
+    z-index: -1;
 }
 
 .filters-panel {
@@ -192,17 +192,6 @@ main {
     justify-content: center;
     font-size: 24px;
     background: white;
-}
-
-.card-front {
-    background-color: #4CAF50;
-    color: white;
-}
-
-.card-back {
-    background-color: #f44336;
-    color: white;
-    transform: rotateY(180deg);
 }
 
 .cards-grid {
